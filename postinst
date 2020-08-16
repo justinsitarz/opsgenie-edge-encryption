@@ -1,0 +1,7 @@
+#!/bin/bash
+chown -R opsgenie:opsgenie /home/opsgenie
+chown -R opsgenie:opsgenie /var/log/opsgenie
+
+chmod +x /etc/systemd/system/ee.service
+systemctl daemon-reload
+systemctl enable ee

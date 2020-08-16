@@ -1,0 +1,11 @@
+[Unit]
+Description=Opsgenie Edge Encryption
+
+[Service]
+ExecStart=/usr/bin/java -jar /home/opsgenie/opsgenie-edge-encryption-2.0.0.jar
+User=opsgenie
+Group=opsgenie
+Type=simple
+
+[Instal]
+WantedBy=multi-user.target
