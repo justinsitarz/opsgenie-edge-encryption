@@ -7,5 +7,5 @@ User=opsgenie
 Group=opsgenie
 Type=simple
 
-[Instal]
+[Install]
 WantedBy=multi-user.target
